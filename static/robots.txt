@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /page/
 Disallow: /search
-Sitemap: https://www.ahonn.me/sitemap.xml
+Sitemap: https://too.luov.me/sitemap.xml
