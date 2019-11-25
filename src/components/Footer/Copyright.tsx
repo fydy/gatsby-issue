@@ -78,8 +78,8 @@ const Copyright = (props: ICopyrightProps) => {
         </span>
         <span>
           Design by
-          <a className={classes.link} href="https://github.com/ahonn">
-            Ahonn
+          <a className={classes.link} href="https://github.com/fydy">
+            E-Law
           </a>
         </span>
       </div>
