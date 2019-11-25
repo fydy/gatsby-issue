@@ -11,12 +11,12 @@ require('ts-node').register({
 module.exports = {
   pathPrefix: '/',
   siteMetadata: {
-    title: `Ahonn's Blog`,
-    author: 'Ahonn',
-    description: 'Personal blog by Ahonn.',
-    siteUrl: 'https://www.ahonn.me',
+    title: `E-Law BLOG`,
+    author: 'fydy',
+    description: 'E-Law BLOG.',
+    siteUrl: 'https://too.luov.me',
     since: 2015,
-    twitter: '@ahonnjiang',
+    twitter: '@chunfengxia',
     menu: [
       // { name: '首页', path: '/' },
       // { name: '关于我', path: '/about' },
@@ -25,8 +25,8 @@ module.exports = {
       { name: 'RSS', path: 'https://www.ahonn.me/atom.xml', header: false },
     ],
     socials: [
-      { name: 'Github', link: 'https://github.com/ahonn' },
-      { name: 'Twitter', link: 'https://twitter.com/ahonnjiang' },
+      { name: 'Github', link: 'https://github.com/fydy' },
+      { name: 'Twitter', link: 'https://twitter.com/chunfengxia' },
       { name: 'Zhihu', link: 'https://www.zhihu.com/people/ahonn/activities' },
     ],
     friends: [
@@ -71,8 +71,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Ahonn's Blog`,
-        short_name: `Ahonn's Blog`,
+        name: `E-Law Blog`,
+        short_name: `E-Law Blog`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#FA7268`,
@@ -135,7 +135,7 @@ module.exports = {
               }
             `,
             output: '/atom.xml',
-            title: "Ahonn's Blog RSS Feed",
+            title: "E-Law Blog RSS Feed",
           },
         ],
       },
