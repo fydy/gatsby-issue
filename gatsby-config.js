@@ -36,8 +36,8 @@ module.exports = {
     gitalk: {
       clientID: 'dbf1f0fb97708b71bdac',
       clientSecret: 'afdfc5117429f0e1e0b6b8ecc9c3c10d64b91c4f',
-      repo: 'fydy',
-      owner: 'issue-blog',
+      repo: 'elaw',
+      owner: 'fydy',
     },
   },
   plugins: [
@@ -45,7 +45,7 @@ module.exports = {
       resolve: 'gatsby-source-github-issue',
       options: {
         owner: 'fydy',
-        repo: 'issue-blog',
+        repo: 'elaw',
       },
     },
     {
